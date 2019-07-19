@@ -333,7 +333,7 @@ p {
     align-items: center;
     font-family: chalkduster, fantasy;
     color: rgb(120, 197, 120);
-    font-size: 12px;
+    font-size: 10px;
   }
   ul:hover {
     cursor: grab;

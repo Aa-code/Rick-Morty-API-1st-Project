@@ -15,21 +15,24 @@ body {
   justify-content: center;
   color: rgb(51, 172, 51);
   font-size: 15px;
-  font-family: fantasy;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323', monospace;
 }
 .gender {
   display: flex;
   justify-content: flex-start;
   color: rgb(51, 172, 166);
   font-size: 15px;
-  font-family: fantasy;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323', monospace;
 }
 .kind {
   display: flex;
   justify-content: center;
   color: rgb(51, 172, 166);
   font-size: 15px;
-  font-family: fantasy;
+  /* font-family: 'Press Start 2P', cursive; */
+  font-family: 'VT323', monospace;
 }
 .episode {
   display: flex;
@@ -44,7 +47,8 @@ body {
   justify-content: center;
   color: rgb(51, 172, 166);
   font-size: 15px;
-  font-family: fantasy;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323', monospace;
 }
 
 .status {
@@ -52,16 +56,20 @@ body {
   justify-content: center;
   color: rgb(51, 172, 51);
   font-size: 15px;
-  font-family: fantasy;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323', monospace;
 }
 
 header {
   width: 100%;
   height: 100px;
-  /* border: 1px solid blue; */
 }
 .title {
   color: rgb(120, 197, 120);
+}
+
+li {
+  font-size: 20px;
 }
 ul {
   list-style-type: none;
@@ -135,11 +143,15 @@ button {
   padding: 10px;
   font-size: 30px;
   border-radius: 40px;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323', monospace;
 }
 input {
   padding: 10px;
   font-size: 30px;
   border-radius: 30px;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323', monospace;
 }
 
 .card {
@@ -169,7 +181,10 @@ input {
 }
 p {
   color: #5aa74c;
-  font-family: chalkduster, fantasy;
+  /* font-family: chalkduster, fantasy; */
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323', monospace;
+  line-height: 1.6;
 }
 .modal-content {
   background-color: #fefefe;
@@ -177,6 +192,7 @@ p {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  border-radius: 30px;
 }
 .close {
   color: green;
@@ -214,6 +230,7 @@ p {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  border-radius: 30px;
 }
 .close2 {
   color: green;
@@ -240,6 +257,8 @@ p {
   color: #5aa74c;
   padding: 10px 0 0 0;
 }
+
+/* //////////iphone */
 
 @media (max-width: 530px) {
   body {
@@ -322,7 +341,7 @@ p {
   h1 {
     display: flex;
     justify-content: center;
-    font-family: Chalkduster, fantasy;
+    /* font-family: Chalkduster, fantasy; */
     font-size: 15px;
   }
 
@@ -367,7 +386,6 @@ p {
   #container {
     display: flex;
     align-items: center;
-    justify-content: center;
     /* position: absolute; */
     margin: 0 auto;
     /* top: 0; */
@@ -392,7 +410,7 @@ p {
     margin: 0 auto;
     /* width: 60%; */
     /* box-shadow: rgb(120, 197, 120); */
-    max-width: 200px;
+    width: 300px;
     margin: auto;
     text-align: center;
     position: relative;

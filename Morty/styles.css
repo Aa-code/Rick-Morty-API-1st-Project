@@ -15,7 +15,7 @@ body {
   justify-content: center;
   color: rgb(51, 172, 51);
   font-size: 15px;
-  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Press Start 2P', cursive; */
   font-family: 'VT323', monospace;
 }
 .gender {
@@ -23,12 +23,12 @@ body {
   justify-content: flex-start;
   color: rgb(51, 172, 166);
   font-size: 15px;
-  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Press Start 2P', cursive; */
   font-family: 'VT323', monospace;
 }
 .kind {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: rgb(51, 172, 166);
   font-size: 15px;
   /* font-family: 'Press Start 2P', cursive; */
@@ -36,10 +36,10 @@ body {
 }
 .episode {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: rgb(51, 172, 51);
   font-size: 15px;
-  font-family: fantasy;
+  font-family: 'VT323', monospace;
 }
 
 .location {
@@ -47,7 +47,7 @@ body {
   justify-content: center;
   color: rgb(51, 172, 166);
   font-size: 15px;
-  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Press Start 2P', cursive; */
   font-family: 'VT323', monospace;
 }
 
@@ -56,7 +56,7 @@ body {
   justify-content: center;
   color: rgb(51, 172, 51);
   font-size: 15px;
-  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Press Start 2P', cursive; */
   font-family: 'VT323', monospace;
 }
 
@@ -143,14 +143,14 @@ button {
   padding: 10px;
   font-size: 30px;
   border-radius: 40px;
-  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Press Start 2P', cursive; */
   font-family: 'VT323', monospace;
 }
 input {
   padding: 10px;
   font-size: 30px;
   border-radius: 30px;
-  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Press Start 2P', cursive; */
   font-family: 'VT323', monospace;
 }
 

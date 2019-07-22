@@ -1,8 +1,5 @@
 $(() => {
   const handleDate = data => {
-    console.log(data.results[0].name);
-    console.log(data);
-
     const $imgid = data.results[0].image;
     const $img1 = $('<img>').attr('src', $imgid);
     $img1.addClass('imgid');
@@ -47,7 +44,6 @@ $(() => {
 
     const $input = $('.title-query').val();
 
-    // const typeInfo = $(event.currentTarget).val();
     const endpoint = `https://rickandmortyapi.com/api/character/?name=${$input} `;
 
     $.ajax({ url: endpoint }).then(handleDate);
@@ -69,12 +65,4 @@ $(() => {
   $('.close2').on('click', () => {
     $('#myRick').css('display', 'none');
   });
-
-  // event listener for modal here
 });
-// console.log(endpoint);
-
-//   const titleQuery = 'Rick';
-
-// const $entry = $('<h1>').text(data.Characters);
-// $('form').append($entry);

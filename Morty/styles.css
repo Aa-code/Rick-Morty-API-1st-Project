@@ -121,14 +121,7 @@ h1 {
     left: 5px;
     top: 0px;
   }
-  /* 75% {
-    left: 0px;
-    top: 200px;
-  } */
-  /* 100% {
-    left: 0px;
-    top: 0px;
-  } */
+ 
 }
 
 .imgid {
@@ -181,8 +174,8 @@ input {
 }
 p {
   color: #5aa74c;
-  /* font-family: chalkduster, fantasy; */
-  font-family: 'Press Start 2P', cursive;
+ 
+  
   font-family: 'VT323', monospace;
   line-height: 1.6;
 }
@@ -258,6 +251,9 @@ p {
   padding: 10px 0 0 0;
 }
 
+
+
+
 /* //////////iphone */
 
 
@@ -332,7 +328,7 @@ p {
                                li { 
                                  font-size: 14px;
                                 }
-                                
+
                               header {
                                 width: 100%;
                                 height: 100px;
@@ -387,14 +383,7 @@ p {
                                   left: 5px;
                                   top: 0px;
                                 }
-                                /* 75% {
-                                  left: 0px;
-                                  top: 200px;
-                                } */
-                                /* 100% {
-                                  left: 0px;
-                                  top: 0px;
-                                } */
+                                
                               }
 
                               .imgid {
@@ -405,13 +394,9 @@ p {
                               #container {
                                 display: flex;
                                 align-items: center;
-                                /* position: absolute; */
+                                
                                 margin: 0 auto;
-                                /* top: 0; */
-                                /* bottom: 0; */
-                                /* left: 0; */
-                                /* right: 0; */
-                                /* border: 1px solid red; */
+                              
                               }
                               button {
                                 padding: 10px;

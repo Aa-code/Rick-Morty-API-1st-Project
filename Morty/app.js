@@ -18,11 +18,6 @@ $(() => {
     $gender1.addClass('gender');
     $('.card').append($gender1);
 
-    const $episode = data.results[0].episode[0];
-    const $episode1 = $('<h1>').text(`Found here!:  ${$episode}`);
-    $episode1.addClass('episode');
-    $('.card').append($episode1);
-
     const $kind = data.results[0].species;
     const $kind1 = $('<h1>').text(`Species: ${$kind}`);
     $kind1.addClass('kind');
@@ -32,6 +27,11 @@ $(() => {
     const $status1 = $('<h1>').text(`Status: ${$status}`);
     $status1.addClass('status');
     $('.card').append($status1);
+
+    const $episode = data.results[0].episode[0];
+    const $episode1 = $('<h1>').text(`Episode: ${$episode}`);
+    $episode1.addClass('episode');
+    $('.card').append($episode1);
 
     const $location = data.results[0].location.name;
     const $location1 = $('<h1>').text(`Location: ${$location}`);

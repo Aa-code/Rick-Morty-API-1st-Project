@@ -2,8 +2,7 @@ body {
   border: 0;
   margin: 0 auto;
   padding: 0;
-  /* width: 100%; */
-  /* height: 100%; */
+
   background-size: cover;
   background-image: url('./backgroundimg.png');
   background-repeat: no-repeat;
@@ -13,51 +12,54 @@ body {
 .characterName {
   display: flex;
   justify-content: center;
-  color: rgb(51, 172, 51);
-  font-size: 15px;
-  /* font-family: 'Press Start 2P', cursive; */
-  font-family: 'VT323', monospace;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: 'Wallpoet', cursive;
+
 }
 .gender {
   display: flex;
-  justify-content: flex-start;
-  color: rgb(51, 172, 166);
-  font-size: 15px;
-  /* font-family: 'Press Start 2P', cursive; */
-  font-family: 'VT323', monospace;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: 'Wallpoet', cursive;
+
 }
 .kind {
   display: flex;
-  justify-content: flex-start;
-  color: rgb(51, 172, 166);
-  font-size: 15px;
-  /* font-family: 'Press Start 2P', cursive; */
-  font-family: 'VT323', monospace;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: 'Wallpoet', cursive;
+
 }
 .episode {
   display: flex;
-  justify-content: flex-start;
-  color: rgb(51, 172, 51);
+  justify-content: center;
+  color: whitesmoke;
   font-size: 15px;
-  font-family: 'VT323', monospace;
+  font-family: 'Wallpoet', cursive;
+  
 }
 
 .location {
   display: flex;
   justify-content: center;
-  color: rgb(51, 172, 166);
+  color: whitesmoke;
   font-size: 15px;
-  /* font-family: 'Press Start 2P', cursive; */
-  font-family: 'VT323', monospace;
+  font-family: 'Wallpoet', cursive;
+
+  
 }
 
 .status {
   display: flex;
   justify-content: center;
-  color: rgb(51, 172, 51);
-  font-size: 15px;
-  /* font-family: 'Press Start 2P', cursive; */
-  font-family: 'VT323', monospace;
+  color: whitesmoke;
+  font-size: 16px;
+  
+  font-family: 'Wallpoet', cursive;
+
 }
 
 header {
@@ -69,13 +71,18 @@ header {
 }
 
 li {
-  font-size: 20px;
+  font-size: 26px;
+}
+main {
+  margin: 30px;
+  padding: 100px;
 }
 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
   font-family: chalkduster, fantasy;
   color: rgb(120, 197, 120);
 }
@@ -85,7 +92,9 @@ ul:hover {
 h1 {
   display: flex;
   justify-content: center;
+  
   font-family: Chalkduster, fantasy;
+
   font-size: 50px;
 }
 
@@ -131,39 +140,30 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: absolute; */
   margin: 0 auto;
-  /* top: 0; */
-  /* bottom: 0; */
-  /* left: 0; */
-  /* right: 0; */
-  /* border: 1px solid red; */
 }
 button {
   padding: 10px;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 40px;
-  /* font-family: 'Press Start 2P', cursive; */
-  font-family: 'VT323', monospace;
+  font-family: 'Nosifer', cursive;
 }
 input {
   padding: 10px;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 30px;
-  /* font-family: 'Press Start 2P', cursive; */
-  font-family: 'VT323', monospace;
+  font-family: 'Nosifer', cursive;
 }
 
 .card {
   background-color: black;
   margin: 0 auto;
-  /* width: 60%; */
-  /* box-shadow: rgb(120, 197, 120); */
-  max-width: 400px;
+  width: 400px;
+  line-height: 2.4;
   margin: auto;
   text-align: center;
   position: relative;
-  top: 50px;
+  top: 100px;
 }
 
 .modal {
@@ -260,236 +260,253 @@ p {
 
 /* //////////iphone */
 
-@media (max-width: 530px) {
-  body {
-    border: 0;
-    margin: auto;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url('./backgroundimg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 
-  .characterName {
-    display: flex;
-    justify-content: center;
-    color: rgb(51, 172, 51);
-    font-size: 10px;
-    font-family: fantasy;
-  }
-  .gender {
-    display: flex;
-    justify-content: flex-start;
-    color: rgb(51, 172, 166);
-    font-size: 10px;
-    font-family: fantasy;
-  }
-  .kind {
-    display: flex;
-    justify-content: flex-start;
-    color: rgb(51, 172, 166);
-    font-size: 10px;
-    font-family: fantasy;
-  }
-  .episode {
-    display: flex;
-    justify-content: flex-start;
-    color: rgb(51, 172, 51);
-    font-size: 10px;
-    font-family: fantasy;
-  }
 
-  .location {
-    display: flex;
-    justify-content: flex-start;
-    color: rgb(51, 172, 166);
-    font-size: 10px;
-    font-family: fantasy;
-  }
 
-  .status {
-    display: flex;
-    justify-content: flex-start;
-    color: rgb(51, 172, 51);
-    font-size: 10px;
-    font-family: fantasy;
-  }
 
-  header {
-    width: 100%;
-    height: 100px;
-    /* border: 1px solid blue; */
-  }
-  .title {
-    color: rgb(120, 197, 120);
-  }
-  ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: chalkduster, fantasy;
-    color: rgb(120, 197, 120);
-    font-size: 10px;
-  }
-  ul:hover {
-    cursor: grab;
-  }
-  h1 {
-    display: flex;
-    justify-content: center;
-    /* font-family: Chalkduster, fantasy; */
-    font-size: 15px;
-  }
 
-  .ship {
-    width: 70px;
-    height: 35px;
-    border-radius: 80px;
-    position: relative;
-    animation: myfirst 3s 2;
-    animation-direction: normal;
-    animation-iteration-count: infinite;
-  }
 
-  @keyframes myfirst {
-    0% {
-      left: 0px;
-      top: 0px;
-    }
-    10% {
-      left: 100px;
-      top: 0px;
-    }
-    50% {
-      left: 5px;
-      top: 0px;
-    }
-    /* 75% {
-      left: 0px;
-      top: 200px;
-    } */
-    /* 100% {
-      left: 0px;
-      top: 0px;
-    } */
-  }
+                            @media (max-width: 530px) {
+                              body {
+                                border: 0;
+                                margin: auto;
+                                padding: 0;
+                                width: 100%;
+                                height: 100%;
+                                background-size: cover;
+                                background-image: url('./backgroundimg.png');
+                                background-repeat: no-repeat;
+                                background-attachment: fixed;
+                              }
 
-  .imgid {
-    height: 60px;
-    width: 80px;
-    border-radius: 25px;
-  }
-  #container {
-    display: flex;
-    align-items: center;
-    /* position: absolute; */
-    margin: 0 auto;
-    /* top: 0; */
-    /* bottom: 0; */
-    /* left: 0; */
-    /* right: 0; */
-    /* border: 1px solid red; */
-  }
-  button {
-    padding: 10px;
-    font-size: 10px;
-    border-radius: 70px;
-  }
-  input {
-    padding: 10px;
-    font-size: 10px;
-    border-radius: 30px;
-  }
+                              .characterName {
+                                display: flex;
+                                justify-content: center;
+                                color: whitesmoke;
+                                font-size: 10px;
+                                font-family: 'Wallpoet', cursive;
 
-  .card {
-    background-color: black;
-    margin: 0 auto;
-    /* width: 60%; */
-    /* box-shadow: rgb(120, 197, 120); */
-    width: 300px;
-    margin: auto;
-    text-align: center;
-    position: relative;
-    top: 50px;
-  }
+                              }
+                              .gender {
+                                display: flex;
+                                justify-content: center;
+                                color:whitesmoke;
+                                font-size: 10px;
+                                font-family: 'Wallpoet', cursive;
 
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    /* background-color: rgb(134, 26, 26);
-    background-color: rgba(0, 0, 0, 0.4); */
-  }
-  p {
-    color: #5aa74c;
-    font-size: 8px;
-    font-family: chalkduster, fantasy;
-  }
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  .close {
-    color: green;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
+                              }
+                              .kind {
+                                display: flex;
+                                justify-content: center;
+                                color: whitesmoke;
+                                font-size: 10px;
+                                font-family: 'Wallpoet', cursive;
 
-  .close:hover,
-  .close:focus {
-    color: green;
-    text-decoration: none;
-    cursor: pointer;
-  }
+                              }
+                              .episode {
+                                display: flex;
+                                justify-content: center;
+                                color:whitesmoke;
+                                font-size: 10px;
+                                font-family: 'Wallpoet', cursive;
 
-  /* // rick */
-  .part2 {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-  }
+                              }
 
-  /* ///part2 button */
-  .rick-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  .close2 {
-    color: green;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
+                              .location {
+                                display: flex;
+                                justify-content: center;
+                                color:whitesmoke;
+                                font-size: 10px;
+                                font-family: 'Wallpoet', cursive;
 
-  .close2:hover,
-  .close2:focus {
-    color: green;
-    text-decoration: none;
-    cursor: pointer;
-  }
-}
+                              }
+
+                              .status {
+                                display: flex;
+                                justify-content: center;
+                                color: whitesmoke;
+                                font-size: 10px;
+                                font-family: 'Wallpoet', cursive;
+
+                              }
+                               li { 
+                                 font-size: 14px;
+                                }
+                                
+                              header {
+                                width: 100%;
+                                height: 100px;
+                                
+                              }
+                              .title {
+                                color: rgb(120, 197, 120);
+                              }
+                              main {
+                                margin: 30px;
+                                padding: 50px;
+                              }
+                              ul {
+                                list-style-type: none;
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                font-family: chalkduster, fantasy;
+                                color: rgb(120, 197, 120);
+                                font-size: 10px;
+                              }
+                              ul:hover {
+                                cursor: grab;
+                              }
+                              h1 {
+                                display: flex;
+                                justify-content: center;
+                                
+                                font-size: 20px;
+                              }
+
+                              .ship {
+                                width: 70px;
+                                height: 35px;
+                                border-radius: 80px;
+                                position: relative;
+                                animation: myfirst 3s 2;
+                                animation-direction: normal;
+                                animation-iteration-count: infinite;
+                              }
+
+                              @keyframes myfirst {
+                                0% {
+                                  left: 0px;
+                                  top: 0px;
+                                }
+                                10% {
+                                  left: 100px;
+                                  top: 0px;
+                                }
+                                50% {
+                                  left: 5px;
+                                  top: 0px;
+                                }
+                                /* 75% {
+                                  left: 0px;
+                                  top: 200px;
+                                } */
+                                /* 100% {
+                                  left: 0px;
+                                  top: 0px;
+                                } */
+                              }
+
+                              .imgid {
+                                height: 60px;
+                                width: 80px;
+                                border-radius: 25px;
+                              }
+                              #container {
+                                display: flex;
+                                align-items: center;
+                                /* position: absolute; */
+                                margin: 0 auto;
+                                /* top: 0; */
+                                /* bottom: 0; */
+                                /* left: 0; */
+                                /* right: 0; */
+                                /* border: 1px solid red; */
+                              }
+                              button {
+                                padding: 10px;
+                                font-size: 10px;
+                                border-radius: 70px;
+                              }
+                              input {
+                                padding: 10px;
+                                font-size: 10px;
+                                border-radius: 30px;
+                              }
+
+                              .card {
+                                background-color: black;
+                                margin: 0 auto;
+                               
+                                width: 300px;
+                                margin: auto;
+                                text-align: center;
+                                position: relative;
+                                top: 50px;
+                              }
+
+                              .modal {
+                                display: none;
+                                position: fixed;
+                                z-index: 1;
+                                padding-top: 100px;
+                                left: 0;
+                                top: 0;
+                                width: 100%;
+                                height: 100%;
+                                overflow: auto;
+                                
+                              }
+                              p {
+                                color: #5aa74c;
+                                font-size: 10px;
+                                font-family: chalkduster, fantasy;
+                              }
+                              .modal-content {
+                                background-color: #fefefe;
+                                margin: auto;
+                                padding: 20px;
+                                border: 1px solid #888;
+                                width: 80%;
+                              }
+                              .close {
+                                color: green;
+                                float: right;
+                                font-size: 28px;
+                                font-weight: bold;
+                              }
+
+                              .close:hover,
+                              .close:focus {
+                                color: green;
+                                text-decoration: none;
+                                cursor: pointer;
+                              }
+
+                              /* // rick */
+                              .part2 {
+                                display: none;
+                                position: fixed;
+                                z-index: 1;
+                                padding-top: 100px;
+                                left: 0;
+                                top: 0;
+                                width: 100%;
+                                height: 100%;
+                                overflow: auto;
+                                background-color: rgb(0, 0, 0);
+                                background-color: rgba(0, 0, 0, 0.4);
+                              }
+
+                              /* ///part2 button */
+                              .rick-content {
+                                background-color: #fefefe;
+                                margin: auto;
+                                padding: 20px;
+                                border: 1px solid #888;
+                                width: 80%;
+                              }
+                              .close2 {
+                                color: green;
+                                float: right;
+                                font-size: 28px;
+                                font-weight: bold;
+                              }
+
+                              .close2:hover,
+                              .close2:focus {
+                                color: green;
+                                text-decoration: none;
+                                cursor: pointer;
+                              }
+                            }
